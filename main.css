@@ -1,0 +1,86 @@
+.main-grid{
+  display: grid;
+  grid-template-columns: 200px 0px;
+  background-color: white;
+  padding: 20px;
+  width: 100%;
+  /* height: 690px; */
+  align-content: center;
+}
+
+.grid-container-1 {
+  position: relative;
+  display: grid;
+  height: 70%;
+  grid-template-columns: 100px;
+  grid-template-rows: repeat(7, 70px);
+  grid-gap: 10px;
+  margin: 50px;
+  align-content: center;
+  align-items: center;
+}
+
+.grid-container-2{
+  position: relative;
+  display: grid;
+  height: 70%;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(7, 70px);
+  grid-gap: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-content: center;
+  align-items: center;
+}
+
+.main-grid > div {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.main2{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  border-bottom: 1px solid gray;
+}
+
+.main-head, main{
+  border-bottom: 1px solid gray;
+
+}
+
+.main{
+  padding: 20px;
+  position: relative;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.box{
+  width: 20px;
+  height: 20px;
+  border: 1px solid grey;
+  padding: 20px;
+  text-align: center;
+  margin-left: 20px;
+}
+
+.item{
+  width: 60px;
+  height: 40px;
+  padding: 20px;
+  align-items: center;
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+  border-bottom: 1px dashed #c0c0c0;
+}
+
+.close{
+  border: none;
+  background-color: white;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+
